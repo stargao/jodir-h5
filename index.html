@@ -6,7 +6,7 @@
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
-    <title>骄点医学美容医院</title>
+    <title>娇点医学美容医院</title>
     <link rel="stylesheet" href="css/foundation.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -15,7 +15,7 @@
     <script type="text/javascript">
         wx.config({
             debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-            appId: '', // 必填，公众号的唯一标识
+            appId: 'wx8c9cf1e67ff93ee6', // 必填，公众号的唯一标识
             timestamp: , // 必填，生成签名的时间戳
             nonceStr: '', // 必填，生成签名的随机串
             signature: '',// 必填，签名，见附录1
@@ -23,7 +23,7 @@
         });
 
         wx.onMenuShareTimeline({
-            title: '骄点医学美容医院', // 分享标题
+            title: '娇点医学美容医院', // 分享标题
             link: 'http://yao.shuba100.com/jodir', // 分享链接
             imgUrl: 'img/logo.png', // 分享图标
             success: function () { 
@@ -38,11 +38,17 @@
 <body>
     <div id="fullpage">
         <p class="scroll-btn animated infinite bounce"></p>
-        <div class="section full-page page-1">
+        <div class="section full-page page-0">
             <div class="row">
-
-            </div>    
+                <h1>抢免费手机流量</h1>
+                <p style="margin-top: 20px;">本活动提供方</p>
+                <p class="main-name">娇点医学美容医院</p>
+                <a href="#qrcode" class="qrcode"><img src="img/qrcode.jpg" /></a>
+                <p>请长按图中二维码关注娇点</p>
+                <p class="tips-content">下拉观看内容后抢免费流量哦！</p>
+            </div>
         </div>
+        <div class="section full-page page-1"></div>
         <div class="section full-page page-2"></div>
         <div class="section full-page page-3"></div>
         <div class="section full-page page-4"></div>
@@ -51,13 +57,13 @@
             <p class="share-tips"></p> 
         </div>
         <div class="section full-page page-7">
-            <!--div class="row form-container">
+            <div class="row form-container">
                 <div class="small-12">
                     <h1>分享成功</h1>
                     <h2>输入手机号赢免费流量</h2>
                 </div>
             </div>
-            <form>
+            <form class="form-container">
               <div class="row">
                 <div class="small-10 small-offset-1 columns">
                     <label>
@@ -67,10 +73,10 @@
             </div>
             <div class="row">
                 <div class="small-10 small-offset-1 columns">
-                    <button type="submit" class="button expand submit-btn">抽&nbsp;&nbsp;奖</button>
+                    <button type="submit" class="button expand submit-btn">抢流量红包</button>
                 </div>
             </div>
-        </form-->
+        </form>
         <div class="row success-wrap">
             <div class="small-12">
                 <h1>恭喜你</h1>
